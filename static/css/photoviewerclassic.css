@@ -1,0 +1,192 @@
+/* photoviewerclassic.css file, for iggymakesthings photoviewerclassic.html */
+
+body {
+	font: 15px "Segoe UI", "Tahoma";
+	/*background-color: #FBF7F0;*/
+	background-color: #fffefc;
+}
+
+div {
+	margin-bottom: 1em;
+}
+
+div#content {
+	width: 75%;
+	max-width: 75%;
+	margin: auto;
+	padding: 2em;
+	padding-top: 1em;
+	padding-bottom: 0em;
+}
+
+div#header {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 0em;
+	margin-bottom: 0.1em;
+	z-index: 1;
+	/*position: fixed;
+	z-index: 19000;
+	width: 100%;*/
+}
+
+div#header-left, div#header-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 50%;
+}
+
+div#header-left {
+	cursor: context-menu;
+	justify-content: flex-start;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+div#header-right {
+	justify-content: flex-end;
+}
+
+img#main-logo {
+	width: 40px;
+	padding-right: 6px;
+}
+
+span#app-title {
+	font: 19px "Segoe Script";
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+div.app-button {
+	padding: 0.3em 0.6em;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+div#header-trial-button {
+	color: #FFF;
+	background-color: #000;
+	font-weight: bold;
+	font-size: 17px;
+	cursor: pointer;
+	padding: 0.3em 1em;
+	padding-bottom: 0.45em;
+}
+
+div#header-trial-button:hover {
+	color: #FFE200;
+}
+
+div.body-trial-button {
+	margin-top: 1em;
+	/*margin-bottom: 0;*/
+	color: #FFF;
+	display: inline-block;
+	background-color: #5D2F86;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+	padding: 0.3em 1em;
+	padding-bottom: 0.45em;
+}
+
+div.body-trial-button:hover {
+	color: #FFE200;
+}
+
+div#splash {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	font-weight: bold;
+	font-size: 2.4em;
+	text-align: center;
+	margin-top: 0em;
+	margin-bottom: 0;
+}
+
+div#splash div {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	margin: 0.6em;
+}
+
+div#app-description {
+	margin-left: 0.45em;
+	text-align: center;
+	padding-left: 1em;
+}
+
+div#from-iggy {
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+img {
+	max-width:100%;
+	display: inline-block;
+}
+
+div.screenshot-div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 1.5em;
+}
+
+div.screenshot-div img {
+	max-width: 90%;
+}
+
+div#app-feature-list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+a {
+	color: blue;
+}
+
+.h2-title {
+	padding-bottom: .3em;
+    border-bottom: 1px solid #eaecef;
+	text-align: center;
+}
+
+div#final-pitch {
+	text-align: center;
+}
+
+p.big-pitch {
+	display: block;
+	font-weight: bold;
+	font-size: 1.8em;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+div#privacy-policy {
+	text-align: center;
+}
+
+.low-margin {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+}

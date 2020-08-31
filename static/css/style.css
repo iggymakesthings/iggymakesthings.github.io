@@ -1,0 +1,49 @@
+/* style.css file, for iggymakesthings index.html */
+
+body {
+	font: 15px "Segoe UI", "Tahoma";
+	/*background-color: #FBF7F0;*/
+	background-color: #fffefc;
+}
+
+div {
+	margin-bottom: 1em;
+}
+
+div#content {
+	max-width: 75%;
+	margin: auto;
+	padding: 2em;
+}
+
+div#main-image, div#page-title {
+	text-align: center; 
+}
+
+div#page-title {
+	font: 24px "Segoe Script", "Ink Free";
+	font-weight: 600;
+	cursor: context-menu;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+img#main-photo {
+	border-radius: 50%;
+	width: 100px;
+	margin: auto;
+}
+
+a {
+	color: blue;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+  cursor: context-menu;
+}
